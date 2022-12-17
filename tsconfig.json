@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "baseUrl": "./",
+    "typeRoots": ["node_modules/@types"],
+    "incremental": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "src/namespace.d.ts",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "react-keycloak.d.ts",
+    "scripts",
+    "tests"
+  ],
+  "exclude": ["node_modules", "local-package"],
+  "ts-node": {
+    "require": ["tsconfig-paths/register"],
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
+  }
+}
