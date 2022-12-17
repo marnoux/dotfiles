@@ -22,7 +22,6 @@
     "src/namespace.d.ts",
     "src/**/*.ts",
     "src/**/*.tsx",
-    "react-keycloak.d.ts",
     "scripts",
     "tests"
   ],
