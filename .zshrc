@@ -1,6 +1,3 @@
-export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
-export NEXT_PUBLIC_KEYCLOAK_AUTH_URL=https://staging.keycloak.castoredc.org/auth
-export NEXT_PUBLIC_API_BASE_URL=/api
 alias gitb="git branch | grep '^\*' | cut -d' ' -f2 | pbcopy"
 alias dev="reset; yarn dev:local development"
 alias qa="reset; yarn dev:local qa"
