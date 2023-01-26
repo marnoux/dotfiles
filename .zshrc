@@ -1,6 +1,5 @@
 alias gitb="git branch | grep '^\*' | cut -d' ' -f2 | pbcopy"
-alias dev="reset; yarn dev:local development"
-alias qa="reset; yarn dev:local qa"
+alias dev="reset; yarn dev"
 alias test="reset; yarn test --no-cache"
 alias lint="reset; yarn lint"
 alias repack="reset; rm -rf node_modules/; yarn;"
